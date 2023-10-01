@@ -31,7 +31,7 @@ module.exports={
                const token= jwt.sign({iduser: myUser.iduser, telefono: myUser.telefono}, keys.secretOrKey, {});
 
                const data={
-                     iduser:myUser.iduser,
+                     iduser:`${myUser.iduser}`,
                      nombre:myUser.nombre,
                      telefono:myUser.telefono,
                      direccion:myUser.direccion,
