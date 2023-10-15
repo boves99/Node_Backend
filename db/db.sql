@@ -3,7 +3,7 @@ CREATE TABLE `gas`.`users` (
   `nombre` VARCHAR(100) NOT NULL,
   `telefono` VARCHAR(8) NOT NULL,
   `direccion` VARCHAR(250) NOT NULL,
-  `pin` VARCHAR(4) NOT NULL,
+  `pin` VARCHAR(250) NOT NULL,
   `idsector` INT NULL DEFAULT 0,
   `created_at` TIMESTAMP NOT NULL,
   `updated_at` TIMESTAMP NOT NULL,
