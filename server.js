@@ -35,7 +35,7 @@ ROUTE CALLS
 
 usersRoutes(app);
 
-server.listen(3000,'containers-us-west-169.railway.app' || 'localhost', function(){
+server.listen(3000,'192.168.100.84' || 'bjwfwnnn7gbknhx8zgdq-mysql.services.clever-cloud.com', function(){
   console.log('Aplicacion de NodeJS ' + process.pid +' Iniciada...')  
 });
 

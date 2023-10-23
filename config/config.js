@@ -9,10 +9,10 @@ const DB_PORT= process.env.DB_PORT || 3306;
 
 const mysql = require('mysql');
 const db= mysql.createConnection({
-host: DB_HOST.toString(),
-user: DB_USER.toString(),
-password : DB_PASSWORD.toString(),
-database: DB_NAME.toString(),
+host: 'bjwfwnnn7gbknhx8zgdq-mysql.services.clever-cloud.com',
+user: 'ufnkmhd8ygoqpfvs',
+password : '7ve8M2Wsyau73C0ul9oV',
+database: 'bjwfwnnn7gbknhx8zgdq',
 
 });
 
